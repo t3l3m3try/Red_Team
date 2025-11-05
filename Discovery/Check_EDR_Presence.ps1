@@ -3,7 +3,7 @@
    Check EDR by known Drivers
 .EXAMPLE
    Invoke-EDRCheck
-   iex (iwr https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Check_EDR_Presence.ps1);Invoke-EDRCheck
+   iex (iwr https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Check_EDR_Presence.ps1);Invoke-EDRCheck
 #>
 function Invoke-EDRCheck{
     [Alias('EDRCheck')]

